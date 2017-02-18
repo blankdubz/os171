@@ -20,3 +20,4 @@ drwxr-xr-x  2 budi.indrawan StafCS 4096 Feb 16 16:38 week09
 drwxr-xr-x  2 budi.indrawan StafCS 4096 Feb 16 16:38 week10
 drwxr-xr-x  2 budi.indrawan StafCS 4096 Feb 16 16:39 xtra
 /home/fasilkom/mahasiswa/b/budi.indrawan/os171/week01
+Today is 18 Feb 2017 at 10:44:38
