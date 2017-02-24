@@ -1,0 +1,3 @@
+task week00 desc:
+pada tugas ini, mahasiswa harus membuat account GitHub dan membuat repository. 
+setelah itu mahasiswa harus mencoba untuk dapat login di badak.cs.ui.ac.id.

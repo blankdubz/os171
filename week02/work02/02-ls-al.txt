@@ -1,0 +1,8 @@
+total 24
+drwxr-xr-x 2 budi.indrawan StafCS 4096 Feb 23 16:50 .
+drwxr-xr-x 3 budi.indrawan StafCS 4096 Feb 23 16:18 ..
+-rw-r--r-- 1 budi.indrawan StafCS  254 Feb 23 16:23 00-toc.txt
+-rw-r--r-- 1 budi.indrawan StafCS 3158 Feb 23 16:07 01-public-osteam.txt
+-rw-r--r-- 1 budi.indrawan StafCS    0 Feb 23 16:50 02-ls-al.txt
+-rw-r--r-- 1 budi.indrawan StafCS  339 Feb 23 16:43 03-list-keys1.txt
+-rw-r--r-- 1 budi.indrawan StafCS  505 Feb 23 16:46 04-list-keys2.txt

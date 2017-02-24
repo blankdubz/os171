@@ -1,0 +1,6 @@
+/home/fasilkom/mahasiswa/b/budi.indrawan/.gnupg/pubring.gpg
+-----------------------------------------------------------
+pub   4096R/72D733FF 2017-02-23 [expires: 2017-08-22]
+uid                  Budi Indrawan (Menyenangkan bisa mengetahui cara Enkripsi file) <budi.indrawan@ui.ac.id>
+sub   4096R/1DA62B03 2017-02-23 [expires: 2017-08-22]
+
