@@ -1,0 +1,4 @@
+w03-170302-16-LR-About: Linux Boot Process
+w03-170302-16-LR-About: Linux Boot Process, From: http://www.thegeekstuff.com/2011/02/linux-boot-process
+w03-170302-22-LR-About: Sudo
+w03-170302-22-LR-About: Sudo

@@ -1,0 +1,39 @@
+Hello, this is explanation about linux booting!
+
+Jadi pada saat linux booting, terjadi 6 tahap proses diataranya:
+
+1. BIOS execute MBR
+   - User turn on system computer
+   - The CPU powers up and reads address xFFFF0 from the ROM 
+   - Performs some integrity checks
+   - Searches, loads, and executes the boot loader program
+   - Loads and execute boot sector form MBR
+   - Load OS
+
+2. MBR execute GRUB
+   - It contains information about GRUB
+   - after MBR is loaded into RAM, control it and executes the GRUB boot loader
+
+3. GRUB execute Kernel
+   - GRUB has the knowledge of the filesystem
+   - GRUB loads the user-selected (or default) kernel into memory and passes control on to the kernel
+
+4. Kernel execute Init
+   - Kernel is always store on memory until computer is tern off
+   - init was the 1st program to be executed by Linux Kernel, the PID is 1
+
+5. Init execute Runlevel programs
+   _ The first processes that init starts is a script /etc/rc.d/rc.sysinit 
+   - Init starting system processes as defined in the /etc/inittab file
+   - Looks at the /etc/inittab file to decide the Linux run level
+   - Init identifies the default initlevel from /etc/inittab and uses that to load all appropriate program
+   - Execute ‘grep initdefault /etc/inittab’ on your system to identify the default run level
+
+6. Runlevel programs are excute
+   - Depending to default init level setting, the system will execute the programs
+
+
+Reference: 
+	- Linux Booting Procedure.ppt & BIOS and the UEFI.pdf (from week03 suplementary)
+	- 6 Stages of Linux Boot Process (Startup Sequence)
+	  http://www.thegeekstuff.com/2011/02/linux-boot-process
