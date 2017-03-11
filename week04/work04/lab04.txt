@@ -1,0 +1,48 @@
+1.
+a. What are the differences about the code and the output from both program?
+
+ pada global-char variable di definisikan diluar fungsi, sedangkan local-char di definisikan di dalam fungsi.
+
+b. Why Global Variable Address number and Local Variable Address number have a great difference in their address?
+ karena perbedaan lokasi tersebut pada jawaban no.1 menyebabkan posisi pointer yang disimpan di alamat memory juga berbeda walaupun memiliki value yang sama.
+
+c. Write your knowledge about Global Variable Address and Local Variable Address
+  Global Variable Address:
+  adalah variable yang di definisikan diluar fungsi, biasanya pada bagian awal program. Varibel tersebut dapat di gunakan oleh seluruh fungsi-fungsi yang ada pada program tersebut
+  Local Variable Address:
+  adalah variabel yang di definisikan di dalam fungsi dan hanya bisa digunakan di dalam fungsi tersebut saja sehingga fungsi yang lain tidak mengenali variabel tersebut.
+
+  Reference : https://www.tutorialspoint.com/cprogramming/c_scope_rules.htm
+
+ 
+2.
+
+a) Explain the parameter of flags in open function that used in the code !
+ Untuk menetukan aksi yang dapat dilakukan terhadap suatu file bedasarkan permission type seperti write, read, execute.
+ O_CREAT >> open function, file akan di create jika tidak ada
+ O_RDWR >> open function,file bisa di read dan write
+
+
+b) Explain the parameter of modes in open function that used in the code !
+ Untuk menentukan user yang memiliki permission untuk mengakses file berdasarkan permission group seperti
+ user, group, dan others(all users).
+ S_IRWXU >> user atau owner memiliki permission untuk write, read and execute file
+ S_IRGRP >> group(semua user yang berada di group yang sama) hanya memiliki read permission
+ S_IWGRP >> group(semua user yang berada di group yang sama) hanya memiliki write permission
+ S_IROTH >> others(all user) hanya memiliki permission untuk write file
+ 0711 >> -[7] user atau owner memiliki permission untuk write, read and execute file
+         -[1] group(semua user yang berada di group yang sama) memiliki execute permission
+         -[1] others(all user) memiliki execute permission
+ 0700 >> Hanya user atau owner memiliki permission untuk write, read and execute file. Group dan Others tidak memiliki
+         permission apapun.
+
+c) Write your knowledge about open and close I/O process (don't forget to add the sources if you use reference)
+
+ Open merupakan system call untuk create new file atau reading atau writing existing file menggunakan fungsi fopen().
+ close merupakan system call untuk menutup file yang sudah di open sebelumnya menggunakan fungsi fclose(-)
+
+ Referensi : https://www.tutorialspoint.com/cprogramming/c_file_io.htm
+             https://www.programiz.com/c-programming/c-file-input-output
+
+3. write merupakan fungsi system call yang menulis data bytes dari buffer
+

@@ -1,0 +1,18 @@
+=======================================
+varchar0: value =  a, address = 0x7ffe93adbcdf
+varchar1: value =  b, address = 0x7ffe93adbcde
+varchar2: value =  c, address = 0x7ffe93adbcdd
+varchar3: value =  d, address = 0x7ffe93adbcdc
+=======================================
+=======================================
+varchar0: value =  a, address = 0x7fff6d16a48f
+varchar1: value =  b, address = 0x7fff6d16a48e
+varchar2: value =  c, address = 0x7fff6d16a48d
+varchar3: value =  d, address = 0x7fff6d16a48c
+=======================================
+=======================================
+varchar0: value =  a, address = 0x7ffe3ce253af
+varchar1: value =  b, address = 0x7ffe3ce253ae
+varchar2: value =  c, address = 0x7ffe3ce253ad
+varchar3: value =  d, address = 0x7ffe3ce253ac
+=======================================
