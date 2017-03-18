@@ -1,0 +1,4 @@
+w05-170316-15-LR-About: Memory Allocation
+w05-170316-15-LR-About: Memory Allocation from https://www.programiz.com/c-programming/c-dynamic-memory-allocation
+w05-180302-22-LR-About: Memory Allocation
+ 

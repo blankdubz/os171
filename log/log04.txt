@@ -1,0 +1,3 @@
+w04-170311-13-LR-About: Pointer
+w04-170311-13-LR-About: Pointer from https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+w04-170311-14-LR-About: Pointer from https://www.cs.swarthmore.edu/~newhall/cs31/resources/C-structs_pointers.php
