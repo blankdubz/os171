@@ -1,0 +1,2 @@
+Program ini mengalokasikan sejumlah memory ke running proses dan dengan fungsi malloc() pada program, sejumlah size yang telah di definisikan sebelumnya pada variable MSIZE1-6 kemudian di eksekusi oleh fungsi system() sehingga menampilkan running proses di badak.
+
