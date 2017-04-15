@@ -1,0 +1,17 @@
+# Github Account: blankdubz
+
+1. Learning Fork
+   * PID adalah nomor Identity dari suatu proses 
+     PPID adalah nomor Parent (Induk) Identity dari suatu proses
+   
+   * function getpid() adalah fungsi untuk mendapatkan nomor identity dari suatu proses
+     getppid() adalah fungsi untuk mendapatkan nomor parent identity dari proses
+     sleep adalah fungsi untuk melakukan delay pada suatu proses dengan waktu tertentu
+     wait adalah fungsi untuk menunda suatu Parent Proses dan akan lanjut apabila telah mendapatkan sinyal dari Child Proses yang telah terminate
+
+   * Return value of fork() adalah fungsi tersebut akan menghasilkan dua proses yang identik(Parent & Child Proses), dimana pada Parent Proses akan memiliki value dari PID Child Proses dan Child Proses itu sendiri akan memliki value 0 
+ 
+2. Fork Code
+   * procStatus merupakan fungsi yang akan menampilkan pada layar untuk nilai level, PID dan PPID pada level tersebut
+   * wait(NULL) berfungsi untuk menahan Parent proses yang pasti tidak memiliki value 0 sehingga nilai level juga tidak akan bertambah, Parent proses akan menunggu sinyal terminate dari Child Proses.
+   * fflush(NULL) berfungsi untuk memberi sinyal kepada Parent proses bahwa Child Proses telah di terminate
