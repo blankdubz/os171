@@ -1,0 +1,5 @@
+w07-170421-16-LR-About: Processes Synchronization
+w07-170422-11-LR-About: Semaphores
+w07-170422-12-LR-About: Semaphores 
+w07-170422-13-LR-About: Semaphores 
+w07-170422-14-LR-About: Semaphores  
